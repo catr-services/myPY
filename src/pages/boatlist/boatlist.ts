@@ -3,10 +3,10 @@ import { MyService } from './../../providers/my-service'
 import { NavController } from 'ionic-angular';
 
 @Component({
-  selector: 'page-home',
-  templateUrl: 'home.html'
+  selector: 'page-boatlist',
+  templateUrl: 'boatlist.html'
 })
-export class HomePage {
+export class BoatList {
   myArray=['Fireball','RS100'];
   constructor(public navCtrl: NavController, public myService: MyService)
    {
